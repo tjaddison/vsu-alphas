@@ -88,7 +88,7 @@ export default function MembershipDuesForm() {
         </div>
 
         <Card className="shadow-[var(--shadow-elegant)] border-2">
-          <CardContent>
+          <CardContent className="pt-6">
             {!isSubmitted ? (
               <Form {...form}>
                 <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
